@@ -4,7 +4,6 @@ class GithubProfileController < ApplicationController
 
   def show
     username = params[:username]
-    g = Github.new(username)
-    @repository_list = g.repositories
+    @repository_list = Github.new(username).repositories
   end
 end
