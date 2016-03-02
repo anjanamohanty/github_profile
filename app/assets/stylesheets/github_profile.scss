@@ -1,0 +1,31 @@
+// Place all the styles related to the GithubProfile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ask {
+  margin: 80px;
+  background-color: #EEE;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center
+}
+
+h3 {
+  font-family: Helvetica;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+}
+
+button {
+  height: 40px;
+  width: 500px;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border-style: none;
+}
