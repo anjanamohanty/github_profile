@@ -2,7 +2,7 @@
   <h3>Enter the GitHub username you're interested in</h3>
 
   <%= form_tag github_profile_show_path do %>
-    <p><%= text_field_tag :username %></p>
-    <p><%= button_tag "Get repository list" %></p>
+    <%= text_field_tag :username %>
+    <%= button_tag "Get repository list" %>
   <% end %>
 </div>
